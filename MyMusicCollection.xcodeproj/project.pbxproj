@@ -13,10 +13,23 @@
 		C313E3B727641804006A8644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C313E3B527641804006A8644 /* Main.storyboard */; };
 		C313E3B927641814006A8644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C313E3B827641814006A8644 /* Assets.xcassets */; };
 		C313E3BC27641814006A8644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C313E3BA27641814006A8644 /* LaunchScreen.storyboard */; };
+		C313E3CA27642852006A8644 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3C427642851006A8644 /* music1.mp3 */; };
+		C313E3CB27642852006A8644 /* music6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3C527642851006A8644 /* music6.mp3 */; };
+		C313E3CC27642852006A8644 /* music5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3C627642852006A8644 /* music5.mp3 */; };
+		C313E3CD27642852006A8644 /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3C727642852006A8644 /* music3.mp3 */; };
+		C313E3CE27642852006A8644 /* music4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3C827642852006A8644 /* music4.mp3 */; };
+		C313E3CF27642852006A8644 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3C927642852006A8644 /* music2.mp3 */; };
+		C313E3D1276440E6006A8644 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313E3D0276440E6006A8644 /* AudioViewController.swift */; };
+		C313E3D327659166006A8644 /* femaleBellaCiao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3D227659166006A8644 /* femaleBellaCiao.mp3 */; };
+		C313E3D527659173006A8644 /* valarMorghulis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3D427659173006A8644 /* valarMorghulis.mp3 */; };
+		C313E3D727659186006A8644 /* GOTtitlesong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3D627659185006A8644 /* GOTtitlesong.mp3 */; };
+		C313E3D927659198006A8644 /* MaleBellaCiao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3D827659197006A8644 /* MaleBellaCiao.mp3 */; };
+		C313E3DB276591A7006A8644 /* targeryan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3DA276591A7006A8644 /* targeryan.mp3 */; };
+		C313E3DD276591BE006A8644 /* themeSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C313E3DC276591BE006A8644 /* themeSong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C313E3AC27641804006A8644 /* MusicList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C313E3AC27641804006A8644 /* MyMusicCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C313E3AF27641804006A8644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C313E3B127641804006A8644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C313E3B327641804006A8644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +37,19 @@
 		C313E3B827641814006A8644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C313E3BB27641814006A8644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C313E3BD27641814006A8644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C313E3C427642851006A8644 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music1.mp3; path = ../../../../../Downloads/Music/music1.mp3; sourceTree = "<group>"; };
+		C313E3C527642851006A8644 /* music6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music6.mp3; path = ../../../../../Downloads/Music/music6.mp3; sourceTree = "<group>"; };
+		C313E3C627642852006A8644 /* music5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music5.mp3; path = ../../../../../Downloads/Music/music5.mp3; sourceTree = "<group>"; };
+		C313E3C727642852006A8644 /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music3.mp3; path = ../../../../../Downloads/Music/music3.mp3; sourceTree = "<group>"; };
+		C313E3C827642852006A8644 /* music4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music4.mp3; path = ../../../../../Downloads/Music/music4.mp3; sourceTree = "<group>"; };
+		C313E3C927642852006A8644 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music2.mp3; path = ../../../../../Downloads/Music/music2.mp3; sourceTree = "<group>"; };
+		C313E3D0276440E6006A8644 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		C313E3D227659166006A8644 /* femaleBellaCiao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = femaleBellaCiao.mp3; path = ../../../../../Downloads/Music/attachments/femaleBellaCiao.mp3; sourceTree = "<group>"; };
+		C313E3D427659173006A8644 /* valarMorghulis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = valarMorghulis.mp3; path = ../../../../../Downloads/Music/attachments/valarMorghulis.mp3; sourceTree = "<group>"; };
+		C313E3D627659185006A8644 /* GOTtitlesong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GOTtitlesong.mp3; path = ../../../../../Downloads/Music/attachments/GOTtitlesong.mp3; sourceTree = "<group>"; };
+		C313E3D827659197006A8644 /* MaleBellaCiao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MaleBellaCiao.mp3; path = ../../../../../Downloads/Music/attachments/MaleBellaCiao.mp3; sourceTree = "<group>"; };
+		C313E3DA276591A7006A8644 /* targeryan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = targeryan.mp3; path = ../../../../../Downloads/Music/attachments/targeryan.mp3; sourceTree = "<group>"; };
+		C313E3DC276591BE006A8644 /* themeSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = themeSong.mp3; path = ../../../../../Downloads/Music/attachments/themeSong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +74,7 @@
 		C313E3AD27641804006A8644 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C313E3AC27641804006A8644 /* MusicList.app */,
+				C313E3AC27641804006A8644 /* MyMusicCollection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +82,7 @@
 		C313E3AE27641804006A8644 /* MusicList */ = {
 			isa = PBXGroup;
 			children = (
+				C313E3C327642511006A8644 /* Audio */,
 				C313E3AF27641804006A8644 /* AppDelegate.swift */,
 				C313E3B127641804006A8644 /* SceneDelegate.swift */,
 				C313E3B327641804006A8644 /* ViewController.swift */,
@@ -63,16 +90,36 @@
 				C313E3B827641814006A8644 /* Assets.xcassets */,
 				C313E3BA27641814006A8644 /* LaunchScreen.storyboard */,
 				C313E3BD27641814006A8644 /* Info.plist */,
+				C313E3D0276440E6006A8644 /* AudioViewController.swift */,
 			);
 			path = MusicList;
+			sourceTree = "<group>";
+		};
+		C313E3C327642511006A8644 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C313E3C427642851006A8644 /* music1.mp3 */,
+				C313E3D227659166006A8644 /* femaleBellaCiao.mp3 */,
+				C313E3C927642852006A8644 /* music2.mp3 */,
+				C313E3DC276591BE006A8644 /* themeSong.mp3 */,
+				C313E3D827659197006A8644 /* MaleBellaCiao.mp3 */,
+				C313E3C727642852006A8644 /* music3.mp3 */,
+				C313E3DA276591A7006A8644 /* targeryan.mp3 */,
+				C313E3D627659185006A8644 /* GOTtitlesong.mp3 */,
+				C313E3D427659173006A8644 /* valarMorghulis.mp3 */,
+				C313E3C827642852006A8644 /* music4.mp3 */,
+				C313E3C627642852006A8644 /* music5.mp3 */,
+				C313E3C527642851006A8644 /* music6.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C313E3AB27641804006A8644 /* MusicList */ = {
+		C313E3AB27641804006A8644 /* MyMusicCollection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C313E3C027641814006A8644 /* Build configuration list for PBXNativeTarget "MusicList" */;
+			buildConfigurationList = C313E3C027641814006A8644 /* Build configuration list for PBXNativeTarget "MyMusicCollection" */;
 			buildPhases = (
 				C313E3A827641804006A8644 /* Sources */,
 				C313E3A927641804006A8644 /* Frameworks */,
@@ -82,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = MusicList;
+			name = MyMusicCollection;
 			productName = MusicList;
-			productReference = C313E3AC27641804006A8644 /* MusicList.app */;
+			productReference = C313E3AC27641804006A8644 /* MyMusicCollection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C313E3A727641804006A8644 /* Build configuration list for PBXProject "MusicList" */;
+			buildConfigurationList = C313E3A727641804006A8644 /* Build configuration list for PBXProject "MyMusicCollection" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C313E3AB27641804006A8644 /* MusicList */,
+				C313E3AB27641804006A8644 /* MyMusicCollection */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +171,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C313E3DD276591BE006A8644 /* themeSong.mp3 in Resources */,
+				C313E3D927659198006A8644 /* MaleBellaCiao.mp3 in Resources */,
+				C313E3CC27642852006A8644 /* music5.mp3 in Resources */,
+				C313E3D527659173006A8644 /* valarMorghulis.mp3 in Resources */,
 				C313E3BC27641814006A8644 /* LaunchScreen.storyboard in Resources */,
 				C313E3B927641814006A8644 /* Assets.xcassets in Resources */,
+				C313E3CA27642852006A8644 /* music1.mp3 in Resources */,
+				C313E3CB27642852006A8644 /* music6.mp3 in Resources */,
+				C313E3CE27642852006A8644 /* music4.mp3 in Resources */,
+				C313E3DB276591A7006A8644 /* targeryan.mp3 in Resources */,
+				C313E3CF27642852006A8644 /* music2.mp3 in Resources */,
 				C313E3B727641804006A8644 /* Main.storyboard in Resources */,
+				C313E3D727659186006A8644 /* GOTtitlesong.mp3 in Resources */,
+				C313E3CD27642852006A8644 /* music3.mp3 in Resources */,
+				C313E3D327659166006A8644 /* femaleBellaCiao.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C313E3B427641804006A8644 /* ViewController.swift in Sources */,
+				C313E3D1276440E6006A8644 /* AudioViewController.swift in Sources */,
 				C313E3B027641804006A8644 /* AppDelegate.swift in Sources */,
 				C313E3B227641804006A8644 /* SceneDelegate.swift in Sources */,
 			);
@@ -320,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C313E3A727641804006A8644 /* Build configuration list for PBXProject "MusicList" */ = {
+		C313E3A727641804006A8644 /* Build configuration list for PBXProject "MyMusicCollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C313E3BE27641814006A8644 /* Debug */,
@@ -329,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C313E3C027641814006A8644 /* Build configuration list for PBXNativeTarget "MusicList" */ = {
+		C313E3C027641814006A8644 /* Build configuration list for PBXNativeTarget "MyMusicCollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C313E3C127641814006A8644 /* Debug */,
